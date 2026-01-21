@@ -1,0 +1,33 @@
+# Vehicle Damage Detection Application - Requirements
+# CPU-only version for inference (no training)
+# Python 3.10+
+
+# Deep Learning Framework (CPU version)
+torch==2.7.1
+torchvision==0.22.1
+pillow==12.0.0
+
+# YOLO for Object Detection
+ultralytics==8.3.61
+opencv-python==4.10.0.84
+
+# Web Framework
+Flask==3.1.2
+flask-cors==6.0.1
+Werkzeug==3.1.3
+
+# Essential Dependencies
+numpy==2.2.6
+Jinja2==3.1.6
+MarkupSafe==2.1.5
+itsdangerous==2.2.0
+click==8.3.0
+blinker==1.9.0
+
+# Additional dependencies for ultralytics
+scipy==1.15.2
+matplotlib==3.10.1
+pandas==2.2.3
+seaborn==0.13.2
+pyyaml==6.0.2
+tqdm==4.67.1
