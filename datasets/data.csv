@@ -1,0 +1,11 @@
+image,classes
+images/train/sample_front_bumper_dent_001.jpg,front_bumper_dent
+images/train/sample_rear_bumper_scratch_001.jpg,rear_bumper_scratch
+images/train/sample_door_dent_001.jpg,door_dent
+images/train/sample_door_scratch_001.jpg,door_scratch
+images/train/sample_hood_dent_001.jpg,hood_dent
+images/train/sample_hood_scratch_001.jpg,hood_scratch
+images/train/sample_head_lamp_001.jpg,head_lamp
+images/train/sample_windshield_crack_001.jpg,windshield_crack
+images/val/sample_front_bumper_dent_val_001.jpg,front_bumper_dent
+images/val/sample_door_scratch_val_001.jpg,door_scratch

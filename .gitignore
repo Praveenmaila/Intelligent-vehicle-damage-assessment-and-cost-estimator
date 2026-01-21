@@ -1,8 +1,22 @@
 venv/
 __pycache__/
 *.pyc
-datasets/
+# Ignore dataset images but keep CSV and structure
+datasets/images/
+datasets/train/
+datasets/val/
+datasets/test/
+datasets/**/*.jpg
+datasets/**/*.jpeg
+datasets/**/*.png
+datasets/**/*.bmp
+datasets/**/*.gif
+# Keep CSV files
+!datasets/*.csv
+!datasets/data.csv
 uploads/
+# Ignore large model files (upload separately or use Git LFS)
 *.pth
 *.pt
+!yolo11n.pt
 .env
